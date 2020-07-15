@@ -4,6 +4,10 @@ html {
 
 /* navbar styles */
 
+.navbar {
+  z-index: 1;
+}
+
 nav.bg-light {
   background: transparent !important;
 }
@@ -39,7 +43,6 @@ nav.bg-light {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: -1;
 }
 
 #landing::after {
@@ -50,21 +53,22 @@ nav.bg-light {
   bottom: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
+
 }
 
 #landing .content {
-  z-index: 1;
   width: 900px;
   height: 400px;
+  z-index: 2;
 }
 
 #landing .content p {
   font-size: 2em;
 }
 
-/* breads section */
+/* breeds section */
 
-#breadsList-section {
+#breedsList-section {
   margin-top: 100vh;
   width: 100%;
 }

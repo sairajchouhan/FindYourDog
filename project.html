@@ -14,20 +14,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
-    <title>dogs</title>
+    <title>Dogiees...</title>
 </head>
 
 <body>
     <!-- <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a id="breadsBtn" href="#">
-          all breads
+        <a id="breedsBtn" href="#">
+          all breeds
         </a>
       </li>
       </li>
     </ul> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Dogiees...</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,8 +36,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto" id="nav-links">
                 <li class="nav-item active">
-                    <a id="breadsBtn" class="nav-link" href="#breadsList-section">
-                        all breads
+                    <a id="breedsBtn" class="nav-link" href="#breedsList-section">
                     </a>
                 </li>
             </ul>
@@ -46,25 +45,40 @@
     <section id="landing">
         <div class="content d-flex justify-content-start flex-column align-items-center">
             <h1 class="display-2 text-white">
-                we love dogs
+                find your dream dog
             </h1>
             <p class="text-white mt-4">bow bow<i class=" fas fa-paw text-white ml-4"></i><i class=" fas fa-paw ml-2
                     text-white"></i>
             </p>
-            <form class="form-inline my-2 my-lg-0" id="breadForm">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search a dog" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+
+            <form class="form-inline my-2 my-lg-0" id="breedForm">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search a dog" aria-label="Search"
+                    id="breedInput" required>
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit" id="search">Search</button>
             </form>
+            <p id="dogNotFound" class="text-white"></p>
         </div>
     </section>
-    <section id="breadsList-section" class="mb-5">
+    <section id="breedsList-section" class="mb-5">
 
         <div class="container">
-            <h1 class="display-4 mb-4">check some of the breads</h1>
-            <div class="row" id="breadsList">
+            <h1 class="display-4 mb-4">check some of the breeds</h1>
+            <div class="row" id="breedsList">
             </div>
         </div>
     </section>
+    <section id="show">
+
+        <div class="container">
+            <p id="selectedBreed" class="lead display-4"></p>
+            <div class="row" id="imageList">
+
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
 
 
     <script src="index.js"></script>
@@ -77,6 +91,8 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script>
     </script>
 </body>
 
