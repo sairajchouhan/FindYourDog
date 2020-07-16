@@ -72,3 +72,30 @@ nav.bg-light {
   margin-top: 100vh;
   width: 100%;
 }
+
+/* social media styles */
+
+#social-media {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+#social-media li {
+  padding: 10px 20px;
+}
+
+#social-media li a {
+  color: white;
+  font-size: 2em;
+
+}
+
+#social-media li a:hover {
+  color: rgb(208, 221, 217);
+
+}
+
+.copy-rights {
+  background-color: #353434;
+}

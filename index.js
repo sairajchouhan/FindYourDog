@@ -80,10 +80,14 @@ breedForm.addEventListener('submit', (e) => {
             <div class="col-lg-6 mt-3">
                 <img src="${img}" alt="" class="img-fluid img-thumbnail">
             </div>
-        
             `;
             })
             imageList.innerHTML = result;
+            const seeYourDog = document.getElementById('seeYourDog')
+            seeYourDog.innerHTML = 'Scroll to see your dogs'
+            setTimeout(() => {
+                seeYourDog.innerHTML = ""
+            }, 5000)
         })
         .catch(err => {
             document.getElementById('dogNotFound').innerHTML = "dog not found try searching other breed"
